@@ -1,0 +1,58 @@
+body {
+    padding-top: 70px;
+}
+
+
+
+.fotoslider{
+    height: 600px;
+}
+
+.hakkımız{
+    
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+
+.ayrac{
+    border: 3px solid black;
+    max-width: 250px;
+    margin: 25px auto;
+}
+
+
+.galeri{
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.galeri-img {
+    width: 100%;
+    height: 250px;       /* Tüm resimler aynı yükseklik */
+    object-fit: cover;   /* Taşanı kırp, oranı bozma */
+    border-radius: 8px;
+}
+
+.iletisim{
+    text-align: center;
+}
+
+#iletisim {
+    margin-top: 80px;
+}
+
+#iletisim .form-control {
+    border-radius: 8px;
+}
+
+#iletisim button {
+    border-radius: 30px;
+}
+.footer {
+    margin-top: 50px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
